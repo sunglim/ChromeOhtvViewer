@@ -1,0 +1,11 @@
+{
+  "name": "ChromeOhtvViewer",
+  "version": "1.0",
+  "description": "This makes chrome open OHTV webpage, instead of downloading",
+  "permissions": ["webRequest", "webRequestBlocking","http://*.ohtvdns.org/*","*://hbbtv.pe.ne.kr/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "manifest_version": 2
+}
